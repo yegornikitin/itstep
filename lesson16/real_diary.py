@@ -63,7 +63,7 @@ try:
             show_daily_tasks(tasks)
             continue
         elif user_input == 3:
-            print(new_task(tasks, new_task))
+            new_task(tasks, new_task)
             continue
         elif user_input == 4:
             delete_task(tasks)
