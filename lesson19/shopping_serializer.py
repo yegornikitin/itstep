@@ -30,10 +30,10 @@ with open("shopping_list.pkl", "rb") as file:
 print(file_load)
 
 # json
-with open("shopping_list.json", "wb") as file:
+with open("shopping_list.json", "w") as file:
     json.dump(shopping_list_example, file)
 
-with open("shopping_list.json", "rb") as file:
+with open("shopping_list.json", "r") as file:
     file_load = json.load(file)
 
 print(file_load)
